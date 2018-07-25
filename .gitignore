@@ -1,0 +1,12 @@
+*.tfstate
+*.tfstate.*
+*.pem
+*.pem.*
+*.tfvars
+*.tfvars.*
+*.tfplan
+.terraform/
+**/.terraform/*
+ssh_*.sh
+ip_address.txt
+ubuntu*.sh

@@ -1,0 +1,12 @@
+[ubuntu]
+ubuntu-2 ansible_ssh_host=52.59.242.167
+ubuntu-0 ansible_ssh_host=52.28.245.175
+ubuntu-1 ansible_ssh_host=18.184.17.16
+[ubuntu:vars]
+ansible_user=ubuntu
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_private_key_file="~/.ssh/sshkey.pem"
+ansible_ssh_extra_args="-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+
